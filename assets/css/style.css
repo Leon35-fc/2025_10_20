@@ -250,3 +250,70 @@ footer a {
         margin-right: auto;
     }
 }
+@media screen and (max-width: 1200px){
+    html {font-size: 100%;}
+    header{
+        padding-top: 2em;
+    }
+    header div img {
+        scale: 90%;
+        margin-bottom: 2em;
+    }
+    header div p{
+        font-size: 1.25em;
+    }
+    header nav li {
+        display: inline-block;
+        font-size: 1.25;
+        margin-right: 0.5em;
+    }
+    h1 {
+        /* font-size: 5rem; */
+    }
+    body {
+        /* font-size: 1.6rem; */
+    }
+    
+    article p:first-of-type{
+        font-size: 0.62em;
+    }
+    article h2 {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    section h2 {
+        background-color: #a3a3a3;
+    }
+    article img{
+        scale: 65%;
+    }
+    article div{
+        border-style:outset #01a0c6;
+    }
+    table {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    iframe{
+        display: inline-block;
+        width: 40%;
+        height: 200px;
+    }
+    section:last-of-type{
+        display: inline-block;
+        width: 40%;
+
+    }
+    aside div{
+        display: inline-block;
+        width: 32%;
+        
+    }
+    aside div:first-of-type{
+        margin-left: auto;
+    }
+    aside div:last-of-type{
+        margin-left: auto;
+    }
+}
